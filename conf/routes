@@ -17,7 +17,7 @@ POST   /employees/save         controllers.Application.save
 GET    /employees/:id          controllers.Application.edit(id:Long)
 POST   /employees/:id          controllers.Application.update(id:Long)
 
-# Delete a computer
+# Delete an employee
 POST   /employees/:id/delete   controllers.Application.delete(id:Long)
 
 # Map static resources from the /public folder to the /assets URL path
